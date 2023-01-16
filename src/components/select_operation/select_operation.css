@@ -1,0 +1,70 @@
+.Select_operation{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.operacionesuno{
+    align-self: center;
+    width: 100%;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.operacionesdos{
+    align-self: center;
+    width: 100%;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.itemone{
+    text-decoration: none;
+    border-radius: 30px;
+    text-align: center;
+    line-height: 128px;
+    background-color: red;
+    height: 80%;
+    width: 40%;
+}
+
+.itemtwo{
+    text-decoration: none;
+    border-radius: 30px;
+    text-align: center;
+    line-height: 128px;
+    background-color: green;
+    height: 80%;
+    width: 40%;
+}
+
+.itemthree{
+    text-decoration: none;
+    border-radius: 30px;
+    text-align: center;
+    line-height: 128px;
+    background-color: blue;
+    height: 80%;
+    width: 40%;
+}
+
+.itemfour{
+    text-decoration: none;
+    border-radius: 30px;
+    text-align: center;
+    line-height: 128px;
+    background-color: yellow;
+    height: 80%;
+    width: 40%;
+}
+
+.goback{
+    text-decoration: none;
+}
