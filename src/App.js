@@ -18,7 +18,7 @@ function App() {
 
 
   const DoSomething = () => {
-    document.getElementById('sz').style.display = 'block';
+    document.getElementById('sz').style.display = 'inline-block';
   }
 
   const DoOtherThing = () => {
@@ -27,7 +27,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Seleccion de zona a trabajar</h1>
+      <h1 className="main-title">SELECCIÓN DE ZONA A TRABAJAR</h1>
       <div>
         <h3>Seleccione Deposito</h3>
         <select name="healthinsurance" onBlur={DoSomething}>

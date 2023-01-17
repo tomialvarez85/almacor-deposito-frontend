@@ -2,8 +2,12 @@
   text-align: center;
 }
 
+.main-title{
+  font-size: 25px;
+}
+
 .select-zone {
-  display: block;
+  display: none;
 }
 
 #next {
@@ -14,5 +18,5 @@
   text-decoration: none;
   background-color: green;
   color: black;
-  display: inline-block;
+  display: none;
 }

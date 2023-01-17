@@ -1,11 +1,11 @@
 import React from 'react';
 import './orden_de_carga.css';
-import odc_header from './odc_header/odc_header';
 
 const orden_de_carga = () => {
   return (
     <div className="Orden_de_carga">
-      <odc_header />
+      <h2 className="odc-title">ORDEN DE CARGA</h2>
+      <a className="goback" href="/selectoperation">Volver</a>
     </div>
   )
 }
